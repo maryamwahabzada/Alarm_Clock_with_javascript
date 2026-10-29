@@ -39,6 +39,10 @@ img{
     justify-content: space-between;
 
 }
+.container .content.disable{
+    opacity: 0.5;
+    pointer-events: none;
+}
 .content .controls{
     border: 1px solid gray;
     width:calc(100%/ 2 - 5px ) ;
@@ -62,4 +66,5 @@ button{
     padding: 15px 0;
     margin-top: 20px;
     font-size: 20px;
+    color: #fff;
 }
